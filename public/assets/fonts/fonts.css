@@ -1,0 +1,309 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("Encode_Sans/EncodeSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("Encode_Sans/EncodeSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("Encode_Sans/EncodeSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("Encode_Sans/EncodeSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("Encode_Sans/EncodeSans-VariableFont_wdth,wght.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("Lato/Lato-ThinItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Lato/Lato-LightItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Lato/Lato-Italic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Lato/Lato-BoldItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Lato/Lato-BlackItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("Lato/Lato-Thin.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Lato/Lato-Light.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Lato/Lato-Regular.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Lato/Lato-Bold.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Lato/Lato-Black.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("Roboto/Roboto-ThinItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Roboto/Roboto-LightItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Roboto/Roboto-Italic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Roboto/Roboto-MediumItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Roboto/Roboto-BoldItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Roboto/Roboto-BlackItalic.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("Roboto/Roboto-Thin.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Roboto/Roboto-Light.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Roboto/Roboto-Regular.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Roboto/Roboto-Medium.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Roboto/Roboto-Bold.woff2") format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Roboto/Roboto-Black.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-ExtraLightItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-LightItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-Italic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-SemiBoldItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-BoldItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-ExtraLight.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-Light.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-SemiBold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-Bold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Titillium_Web/TitilliumWeb-Black.woff2") format('woff2');
+}
