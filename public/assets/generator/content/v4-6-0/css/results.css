@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+:root {
+	--grey-container: #c1c1c18f;
+	--trans: all 0.3s ease 0s;
+}
+
+/* Añadimos un fondo a la cabecera de la página*/
+header #cabecera {
+    background: url(https://cdncpcd.azureedge.net/img/backgroundGamification.jpg) no-repeat;
+}
+
+/* Quitamos los puntos de las listas */
+.no-dot {
+    list-style: none;
+}
+
+.content {
+	width: 90vmin;
+}
+
+/* Centramos el texto principal y lo ponemos verde */
+#room-select h2{
+    text-align: center;
+    color: #1e6c54;
+}
+
+/* Parametros generales */
+body {
+    font-family: Arial, sans-serif;u
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Parametros del contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding: 2em 0 2em 2.5em;
+    font-size: 1.1em;
+}
+
+/* CSS del Selector de Partida */
+#room-select h2 {
+    font-size: 33px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #7b7b7ba6;
+}
+
+#rooms-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Listado de Partidas */
+.Partida {
+    padding: 10px;
+    border: 1px solid #7c7c7c38;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-align: center;
+    max-width: 80%;
+    align-self: center;
+}
+
+.Partida:hover {
+    background-color: #289977a6;
+    color: white;
+}
+
+.container h2 {
+	text-align: center;
+}
+
+/* CSS de los Alumnos y Cuestiones */
+/* Contenedore con info de cada Alumno y Cuestion */
+.student, .question {
+	margin: 1.5em 0 0.5em;
+	padding: 0.73em;
+    padding-right: 1.5em;
+	background: var(--grey-container);
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	transform: scale(0.85);
+    backface-visibility: hidden;
+	transition: var(--trans);
+    -webkit-font-smoothing: subpixel-antialiased;
+    border-radius: 20px;
+    width: calc(100% + 1.5em);
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    transition: height 0.3s ease;
+    transition: var(--trans);
+}
+
+.student:hover, .question:hover {
+	transform: scale(0.9);
+    transform: translate(20px, 0px);
+    backface-visibility: hidden;
+	transition: var(--trans);
+}
+
+.student-ul, .question-ul {
+	padding-top: 1vmin;
+}
+
+.student-ul li, .question-ul li {
+	margin-bottom: 0.2em;
+}
+
+#students-data li, #questions-data li {
+    width: max-content;
+    padding-right: 30px;
+}
+
+/* Nombre de los Alumnos y Cuestiones */
+.container h4 {
+	background: #d5d5d5;
+	display: inline;
+	position: absolute;
+	margin: 0;
+	margin-top: -1.8em;
+    margin-left: 0.5em;
+    padding: 10px;
+	border-radius: 10px;
+	font-size: 1.35em;
+	transform-origin: left bottom;
+    color: #469a84;
+    text-shadow: 1px 1px 1px #7b7b7ba6;
+    font-weight: bold;
+    min-width:max-content;
+    border-right: 40px;
+    transition: var(--trans);
+}
+
+.container h4:hover {
+	font-size: 1.45em;
+    transition: font-size 0.2s;
+    transition: var(--trans);
+    cursor: pointer;
+}
+
+/* Titulos generales */
+.container h3 {
+	color: #1e6c54;
+    text-shadow: 1px 1px 1px #7b7b7ba6;
+}
+
+/* Botón de retorno a la seleccion de partida */
+.return-button {
+    position: relative;
+    margin-left: 45%;
+    border: 2px solid #1e6c54;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    transition: var(--trans);
+    font-size: 22px;
+    background-color: #b5d4be8c;
+    color: #1e6c54;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.return-button:hover {
+    background-color: #469a84;
+    color: white;
+}
+
+/* Footer */
+#footerwrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
