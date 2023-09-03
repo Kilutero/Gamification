@@ -209,11 +209,3 @@ function enviarRespuesta(studentResponse) {
     .catch(error => console.log(error));
   return;
 }
-
-//http://localhost:3000/311567/
-//http://localhost:3000/311567/teacher/
-
-
-// fast avro, estructura - bloob y esto al dataframe
-// el tiempo que ha tardado en cada pregunta, el numero de veces que ha cambiado y reseteado
-// generar datos  -> objetivo cargar el dataframe890
