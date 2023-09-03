@@ -3,9 +3,9 @@ Desarrollo de una aplicacion gamificada. Proyecto para el TFG de Francisco Javie
 <br>
 Para ejecutar la aplicación:<br>
 1- Descargarse todos los archivos y carpetas del repositorio<br><br>
-2- Instalar los modulos de NodeJs con el comando 'npm install' en la carpeta del proyecto<br><br>
+2- Instalar los módulos de NodeJs con el comando 'npm install' en la carpeta del proyecto<br><br>
 3- Ejecutar el servidor NodeJs en local. Para esto hay que abrir el CMD de Windows en la carpeta que contiene el archivo server.js. Escribir la linea 'node server.js'<br><br>
-4- Acceder a las distintas URLs<br>
+4- Acceder a las distintas URLs:<br>
 &emsp;- Estudiantes: http://localhost:3000/411567/<br>
 &emsp;- Profesores: http://localhost:3000/411567/teacher/<br>
 &emsp;- Resultados: http://localhost:3000/411567/results.html<br><br>
