@@ -184,12 +184,12 @@ http.listen(process.env.PORT || 3000, function() {
 
 // Función para enviar la información al servidor
 function enviarRespuesta(studentResponse) {
-  const url = "https://backendcpcd-servicio-scgatewaydev.azuremicroservices.io/api/la/generalla";
+  const url = "URL";
   // Hay que generar un token en el EndPoint
-  const token = "token";
+  const token = "TOKEN";
 
   // Añadimos el campo "domain" al JSON que se envía al servidor
-  studentResponse["domain"] = "gamification@upct.es";
+  studentResponse["domain"] = "DOMAIN";
   
   // Configuramos el envío al servidor
   const options = {
